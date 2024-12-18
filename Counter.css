@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0px;
+    background-color:rgb(1, 19, 36);
+
+}
+#CounterLabel{
+    display: block;
+    font-size:10em;
+    text-align:center;
+    padding:10%;
+    font-family:Arial;
+    color:rgb(6, 209, 255);
+}
+
+.btncontainer{
+    text-align: center;
+    padding:10px 20px;
+   
+}
+
+.btns{
+    background-color: rgb(107, 225, 249);
+    padding:10px 20px;
+    border-radius:10px;
+    width: 100px;
+    height: 45px;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+.btns:hover{
+    background: white;
+    color:rgb(1, 19, 36);
+    transform: scale(1.1);
+    
+}
